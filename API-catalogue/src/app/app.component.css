@@ -1,0 +1,15 @@
+
+
+li.nav-item a {
+  color: white;
+}
+
+li.nav-item a:hover {
+  color: greenyellow;
+}
+
+a.navbar-brand {
+  color: white;
+}
+
+
