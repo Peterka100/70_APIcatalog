@@ -9,6 +9,7 @@ import { BackendsService} from "../backends.service";
 })
 export class BackendsComponent implements OnInit {
 
+  public backends = [];
 
   constructor(private authService: AuthService, private backendService: BackendsService) { }
 

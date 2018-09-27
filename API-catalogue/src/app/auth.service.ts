@@ -11,6 +11,7 @@ export class AuthService {
 
   isLoggedINfunction() {
     return this.isLoggedIN = JSON.parse(localStorage.getItem("isLoggedIN") || 'false');
+
   }
 
 
